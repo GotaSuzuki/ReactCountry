@@ -1,0 +1,49 @@
+.quiz-container {
+  background-color: rgb(201, 218, 233);
+}
+
+.quiz-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  text-align: center;
+}
+
+.question img {
+  width: 400px;
+  height: 300px;
+}
+
+.correctAnswerNumber-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-container {
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* 良い感じの色に変更 */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* ボタンホバー時のスタイル */
+.custom-button:hover {
+  background-color: #2980b9; /* ホバー時の色に変更 */
+}
